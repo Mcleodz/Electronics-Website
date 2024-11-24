@@ -1,0 +1,23 @@
+{
+  "name": "electronics-website",
+  "version": "1.0.0",
+  "description": "Dashboard for Sensor and Lock Modules of 2024 L3 Electronics Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mcleodz/Electronics-Website.git"
+  },
+  "author": "Zac McLeod",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mcleodz/Electronics-Website/issues"
+  },
+  "homepage": "https://github.com/Mcleodz/Electronics-Website#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
