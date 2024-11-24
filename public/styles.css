@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("/font");
+  }
+
+body{
+  background-color: rgb(23, 23, 23);
+  margin:0;
+  padding:0;
+}
+
+/* Styling for Dashboard */
+.tile-parent{
+  width: 100%;
+}
+
+/* Styling for Dashboard Total Cards */
+.tile-child{
+  width: 23%;
+  height: 10rem;
+
+  color: #4B4237;
+  background-color: #EDE7D9;
+
+  border-radius: 1rem;
+  margin-left: 1.5%;
+  margin-top: 1.5%;
+
+  float: left;
+
+  overflow-inline:hidden;
+
+}
+
+.tile-child-title-text{
+  font-size: 100%;
+  font-weight: 800;
+
+  font-family: Montserrat;
+
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+  text-align: left;
+}
+
+.tile-child-total-text{
+  font-size: 150%;
+  font-weight: 800;
+
+  font-family: Montserrat;
+
+  text-align: center;
+}
+
+.state-button{
+  min-width: 6rem;
+  width:5%;
+  height: 2rem;
+
+  font-family: Montserrat;
+  font-weight: 800;
+
+  background-color: green;
+  color: #FFF;
+  border-radius: 0.5rem;
+  border: none;
+
+  display:block;
+  margin: auto;
+}
+
+.log-parent{
+  width: 100%;
+}
+
+/* Styling for Dashboard Total Cards */
+.log-child{
+  width: 97%; 
+  height: fit-content;
+
+  color: #4B4237;
+  background-color: #EDE7D9;
+
+  font-size: 150%;
+  font-weight: 800;
+
+  font-family: Montserrat;
+
+  text-align: center;
+
+  border-radius: 1rem;
+  margin-left: 1.5%;
+  margin-top: 1.5%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+
+  float: left;
+
+  overflow-inline:hidden;
+
+}

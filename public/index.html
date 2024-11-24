@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="/styles"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script src="/home/script"></script>
+    <title>
+        Electronics Website - Home
+    </title>
+</head>
+
+<body>
+    <div class="tile-master" id="tile-master">
+        <div class="tile-child" id="Front Door - Lock">
+            <h1 class="tile-child-title-text">
+                Front Door
+            </h1>
+            <p class="tile-child-total-text">
+                <span class="material-symbols-rounded">sensor_door</span>
+            </p>
+            <button class="state-button" id='Front Door - Lock-state' onclick="changeState('Front Door - Lock')">ARMED</button>
+        </div>
+
+        <div class="tile-child" id="Front Door">
+            <h1 class="tile-child-title-text">
+                Front Door
+            </h1>
+            <p class="tile-child-total-text">
+                <span class="material-symbols-rounded">sensors</span>
+            </p>
+            <button class="state-button" id='Front Door-state' onclick="changeState('Front Door')">ARMED</button>
+        </div>
+
+        <div class="tile-child" id="Baby Room">
+            <h1 class="tile-child-title-text">
+                Baby Room
+            </h1>
+            <p class="tile-child-total-text">
+                <span class="material-symbols-rounded">sensors</span>
+            </p>
+            <button class="state-button" id='Baby Room-state' onclick="changeState('Baby Room')">ARMED</button>
+        </div>
+
+        <div class="tile-child" id="Gun Safe">
+            <h1 class="tile-child-title-text">
+                Gun Safe
+            </h1>
+            <p class="tile-child-total-text">
+                <span class="material-symbols-rounded">sensors</span>
+            </p>
+            <button class="state-button" id='Gun Safe-state' onclick="changeState('Gun Safe')">ARMED</button>
+        </div>
+    </div>
+
+    <div class="log-parent" id="log-parent">
+        <p class="log-child" id="log-child">
+            
+        </p>
+    </div>
+</body>
